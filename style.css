@@ -1,0 +1,261 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  padding-top: 100px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  font-family: "Verdana", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #000000;
+  justify-content: space-between;
+  padding-left: 10px;
+	opacity: 0.8;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a{
+  color: seashell;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.missionbanner {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url("/Users/zacharycapes/Desktop/CodeAcademyProjects/Tea Cozy/photos/img-mission-background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#mission {
+  text-align: center;
+  width: 100%;
+  background-color: #000;
+  padding: 20px;
+}
+
+#mission h2 {
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+ .teacards {
+	 text-align: center;
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: center;
+	 margin-top: 50px;
+	 margin-left: 250px;
+	 width: 1000px;
+
+ }
+
+ #featured h2{
+	 font-size: 30px;
+	 text-align: center;
+	 font-weight: bold;
+	 margin: 25px;
+}
+
+#featured h4{
+	padding-bottom: 25px;
+}
+
+.teacardfeature {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.teacardfeature h4 {
+	margin: 10px;
+}
+
+.location-header{
+	font-size: 30px;
+
+}
+ .teacardfall {
+	 margin: 0 10px;
+ }
+
+ .teacardspice {
+	 margin: 0 10px;
+ }
+
+ .teacarddonut {
+	 margin: 0 10px;
+ }
+
+ .teacardmyrtle {
+	 margin: 0 10px;
+ }
+
+.teacardbedford {
+	margin: 0 10px;
+}
+.teacardfeature img {
+  margin: 2px;
+}
+
+.locations {
+  display: flex;
+  height: 500px;
+  width: 1050px;
+  background-image: url("/Users/zacharycapes/Desktop/CodeAcademyProjects/Tea Cozy/photos/img-locations-background.jpg");
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+	margin-left: 250px;
+	background-size: cover;
+}
+
+.locations-header {
+  font-size: 30px;
+  font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.location-cards {
+  display: flex;
+	text-align: center;
+}
+
+.downtown {
+  background: #000;
+  width: 300px;
+  height: 300px;
+  margin: 0 10px;
+	opacity: .9;
+}
+
+.east {
+  background: #000;
+  width: 300px;
+  height: 300px;
+  margin: 0 10px;
+	opacity: .9;
+}
+
+.oakdale {
+  background: #000;
+  width: 300px;
+  height: 300px;
+  margin: 0 10px;
+	opacity: .9;
+}
+.text h1 {
+	font-weight: bold;
+	margin: 40px;
+}
+.text h2 {
+	margin: 40px;
+}
+
+.bottom {
+	height: 200px;
+	width: 1050px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.bottom h1{
+	font-size: 30px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+.bottom h5 {
+	margin: 20px;
+}
+
+.footer {
+	font-size: 20px;
+	margin-left: 15px;
+	margin-bottom: 30px;
+}
