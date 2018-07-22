@@ -112,6 +112,7 @@ nav span {
   width: 100%;
   background-color: #000;
   padding: 20px;
+
 }
 
 #mission h2 {
@@ -125,17 +126,20 @@ nav span {
 	 display: flex;
 	 flex-wrap: wrap;
 	 justify-content: center;
-	 margin-top: 50px;
-	 margin-left: 250px;
+	 margin:  auto;
 	 width: 1000px;
 
+ }
+
+ #featured {
+	 padding-top: 80px;
  }
 
  #featured h2{
 	 font-size: 30px;
 	 text-align: center;
 	 font-weight: bold;
-	 margin: 25px;
+	 margin-bottom: 25px;
 }
 
 #featured h4{
@@ -147,6 +151,7 @@ nav span {
 	flex-wrap: wrap;
 	justify-content: center;
 	padding-bottom: 50px;
+	width: 1000px;
 }
 
 .teacardfeature h4 {
@@ -180,15 +185,15 @@ nav span {
   margin: 2px;
 }
 
-.locations {
+#locations {
   display: flex;
   height: 500px;
-  width: 1050px;
+  width: 1200px;
   background-image: url("/Users/zacharycapes/Desktop/CodeAcademyProjects/Tea Cozy/photos/img-locations-background.jpg");
   justify-content: center;
   align-items: center;
   flex-direction: column;
-	margin-left: 250px;
+	margin: 50px auto;
 	background-size: cover;
 }
 
@@ -256,6 +261,6 @@ nav span {
 
 .footer {
 	font-size: 20px;
-	margin-left: 15px;
-	margin-bottom: 30px;
+	margin: 50px 0 30px 15px;
+
 }
